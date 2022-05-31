@@ -1,4 +1,4 @@
-# Property binding
+# Event Binding
 
 form doc:
-- Property binding in Angular helps you set values for properties of HTML elements or directives. Use property binding to do things such as toggle button functionality, set paths programmatically, and share values between components.
+- Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches.
