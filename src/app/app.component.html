@@ -1,3 +1,15 @@
+<img alt="data binding" src="{{imgAddress}}"/>
+<hr>
+result of method: addNumbers(2, 2)<h2>{{addNumbers(2, 2)}}</h2>
+adding numbers explicitly: 21 + 5<h2>{{21 + 5}}</h2>
+string concatination: property1.concat(property2)<h2>{{property1.concat(property2)}}</h2>
+boolean expression: 2 === 2<h2>{{2 === 2}}</h2>
+<hr>
+<ul>
+  <h2>Cars:</h2>
+  <li *ngFor="let car of cars">{{car}}</li>
+</ul>
+<hr>
 <h1>{{property1}}</h1>
 <hr>
 <h1>{{property2}}</h1>
@@ -10,7 +22,4 @@
 <hr>
 <h1>{{property6}}</h1>
 <hr>
-<ul>
-  <h2>Cars:</h2>
-  <li *ngFor="let car of cars">{{car}}</li>
-</ul>
+

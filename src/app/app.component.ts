@@ -20,4 +20,10 @@ export class AppComponent {
     'Subaru Impreza',
     'Mitsubishi Evo Lancer'
   ]
+
+  imgAddress = 'https://angular.io/generated/images/guide/architecture/databinding.png';
+
+  addNumbers(arg1: number, arg2: number): number{
+    return arg1 + arg2;
+  }
 }
