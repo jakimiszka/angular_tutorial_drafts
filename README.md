@@ -1,8 +1,4 @@
-# Interpolation 
+# Property binding
 
-Goal:
-- display data in browser
-
-Scenario:
-- we will be moving between two files: app.component.html, app.component.ts (view, controller)
-- we will define few properties and display them in the browser
+form doc:
+- Property binding in Angular helps you set values for properties of HTML elements or directives. Use property binding to do things such as toggle button functionality, set paths programmatically, and share values between components.
