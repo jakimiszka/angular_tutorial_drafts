@@ -6,6 +6,16 @@
 <button type="button" (click)="handleClick()">Toggle Button</button>
 <hr>
 Attribute, class, and style bindings
-<div [className]="isUnchanged ? 'box1' : 'box2'"></div>
+<div [ngClass]="isUnchanged ? 'box1' : 'box2'"></div>
+<hr>
+attribiute vs property binding |  
+there are several ways to bind class with elements in angular: 
+[class.className]="[boolean expression whether it whould be applied or not]"
+[ngClass]="|'key':'boolean value', 'another key': 'another boolean value'|" - it lets assign several classes
+[class]="|toggled: sidebarActive, test: true,test1: sidebarActive|"
+<hr>
+instead of curly braces, there are pipes '|'
+
+<h2 [attr.custom]="expression" (click)="logElement($event)">hejka</h2>
 <hr>
 

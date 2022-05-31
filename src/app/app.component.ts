@@ -10,7 +10,13 @@ export class AppComponent {
 
   isUnchanged = true;
 
+  expression = 'hejka';
+
   handleClick(){
     this.isUnchanged = !this.isUnchanged;
+  }
+
+  logElement(event: any){
+    console.log(event.target);
   }
 }
