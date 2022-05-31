@@ -5,13 +5,12 @@
 - interpolation
 - property binding
 - event binding
-- two way binding
-- forms: TDF / Reactive + validation
-
 - Input / Output
 - EventEmitter
+- two way binding
+<br/>
+- forms: TDF / Reactive + validation
 - ViewChild
-
 - services
 - http
 - navigation
