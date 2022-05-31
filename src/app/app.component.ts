@@ -6,11 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular_tutorial';
-  temp="siema";
+  property1 = 'Apple';
+  property2 = 'Orange';
+  property3 = 'Banana';
+  property4 = 'Grape';
+  property5 = 'Coconut';
+  property6 = 'Watermelon';
 
-  handleChange(event: any){
-    console.log(event.target.value)
-    this.temp = event.target.value;
-  }
+  cars = [
+    'Honda Civic', 
+    'Citroen Saxo',
+    'Toyota Celica',
+    'Subaru Impreza',
+    'Mitsubishi Evo Lancer'
+  ]
 }
