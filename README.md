@@ -12,6 +12,7 @@
 ----------------------------------------------
 - forms: TDF / Reactive + validation
 - services
+- rxjs
 - http
 - navigation
 - testing
