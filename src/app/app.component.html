@@ -1,0 +1,8 @@
+<ul>
+    <h2>Fruits: </h2>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
+<app-child
+    (fruitEvent)="handleAddNewItem($event)"
+>
+</app-child>

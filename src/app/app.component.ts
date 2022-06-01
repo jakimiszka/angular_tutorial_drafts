@@ -6,12 +6,15 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
-  @Input()  item: any;
-  @Output() onChange = new EventEmitter();
-  
-  handleClick(){
-    this.onChange.emit('omg sportowy swirze');
-  }
 
+  items = [
+    'Apple',
+    'Banana',
+    "Grape",
+    'Orange'
+  ]
+
+  handleAddNewItem(item: string){
+    this.items.push(item);
+  }
 }
