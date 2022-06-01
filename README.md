@@ -8,9 +8,9 @@
 - Input / Output
 - EventEmitter
 - two way binding
+- ViewChild
 ----------------------------------------------
 - forms: TDF / Reactive + validation
-- ViewChild
 - services
 - http
 - navigation
